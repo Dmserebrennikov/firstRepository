@@ -11,5 +11,3 @@ function next() {
 let g = next();
 console.log(g());
 console.log(g());
-
-let modifiedFile;
