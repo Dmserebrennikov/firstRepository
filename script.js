@@ -11,3 +11,5 @@ function next() {
 let g = next();
 console.log(g());
 console.log(g());
+
+function lastVersion() {}
