@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+}
+
+body {
+  font: 14px/1.5 serif;
+}
+
+li:nth-child(n + 2) {
+  margin-top: 1.5em;
+}

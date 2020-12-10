@@ -1,15 +1,4 @@
 'use strict';
 
-function next() {
-  let i = 0;
-  function check() {
-    return ++i;
-  }
-  return check;
-}
-
-let g = next();
-console.log(g());
-console.log(g());
-
-function lastVersion() {}
+let date2Start = new Date(2015);
+console.log('date: ', date2Start);
