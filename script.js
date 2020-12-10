@@ -11,7 +11,5 @@ function next() {
 let g = next();
 console.log(g());
 console.log(g());
-console.log(i);
 
-//console.log(next());
-//console.log(next());
+let modifiedFile;
