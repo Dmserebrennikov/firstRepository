@@ -1,4 +1,11 @@
 'use strict';
 
-let date2Start = new Date(2015);
-console.log('date: ', date2Start);
+function unluckyDays(year) {
+  let date = new Date(year, 0),
+    count = 0;
+  while (date.getFullYear() < year + 1) {
+    if (date.getDay() == 5 && date.getDate() == 13) count++;
+    date.setDate(date.getDate() + 1);
+  }
+  return count;
+}
